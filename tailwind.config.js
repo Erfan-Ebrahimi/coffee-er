@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode:'class',
   theme: {
     extend: {
       colors: {
@@ -15,7 +16,7 @@ export default {
         }
       },
       boxShadow: {
-        "shadow-base" : "0px 1px 10px rgba(0 ,0 ,0 , 0.1) "
+        "base" : "0px 1px 10px rgba(0 ,0 ,0 , 0.1) "
       },
       borderRadius: {
         "4xl" : "2rem"
@@ -27,9 +28,17 @@ export default {
         "Morabba" : "Morabba Light",
         "MorabbaM" : "Morabba Medium",
         "MorabbaB" : "Morabba Bold",
+      },
+      letterSpacing: {
+        tightest: '-0.065em'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    function ({addVariant}){
+      addVariant('child' , '& > *');
+      addVariant('child-hover' , '& > *:hover');
+    }
+  ],
 }
 

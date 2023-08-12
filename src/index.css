@@ -34,4 +34,9 @@
         font-display: swap;
     }
 
+    body{
+        background-image: url('/images/headerBgDesktop.webp');
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
 }

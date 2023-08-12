@@ -1,10 +1,12 @@
+import Header from "./components/Header/Header"
+
 function App() {
 
   return (
-    <div>
-      <h1 className='text-brown-900 text-2xl mx-auto flex justify-center mt-40'>COFFEE_ER</h1>
-    </div>
+    <>
+      <Header/>
+    </>
   )
 }
 
-export default App
+export default App;
