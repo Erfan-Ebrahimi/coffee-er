@@ -56,5 +56,9 @@
     }
 
     /* ----------- */
-    
+    .bg-body{
+        background: linear-gradient(rgba(243,244,246,0.35),rgba(243,244,246,0.35)) ,url('./images/body-bg.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
 }

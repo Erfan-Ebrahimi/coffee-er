@@ -21,7 +21,7 @@ const Navbar = ({ size }) => {
     if (size === 'd') {
         return (
             <ul className="flex items-center md:gap-x-6 lg:gap-x-9 h-full text-xl text-gray-300 tracking-tightest child:leading-[56px] [&.active]:child:dark:text-orange-300">
-                <NavLink to='a1'>
+                <NavLink to='/'>
                     <span className="font-DanaM">صفحه اصلی</span>
                 </NavLink>
                 <NavLink to='a2' className="relative group">
@@ -57,7 +57,7 @@ const Navbar = ({ size }) => {
     } else {
         return (
             <div className="flex flex-col gap-y-1.5 text-zinc-600 dark:text-white child:duration-300 child:transition-colors child:p-2.5 child:rounded-md  [&.active]:child:bg-orange-300/40 [&.active]:child:text-orange-500 [&.active]:child:dark:bg-orange-200/30 [&.active]:child:dark:text-orange-300">
-                <NavLink to='1' className="flex items-center ">
+                <NavLink to='/' className="flex items-center ">
                     <div className="flex items-center gap-x-2">
                         <span>
                             <HomeIcon className="w-6 h-5" />
