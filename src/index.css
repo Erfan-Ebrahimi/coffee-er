@@ -33,10 +33,28 @@
         src: url("../fonts/Morabba/woff2/Morabba-Bold.woff2") format("woff2");
         font-display: swap;
     }
+}
 
-    body{
-        background-image: url('/images/headerBgDesktop.webp');
-        background-repeat: no-repeat;
-        background-size: cover;  
+@layer components{
+
+    /* --------BORDERS FOR DESIGN LANDING */
+    .bo{
+        @apply flex items-center justify-center border-t rounded-full
+
     }
+    .bo--main{
+        @apply absolute bottom-0 right-0 left-0 mx-auto translate-y-2/4
+    }
+    .bo--lg{
+        @apply border-white/50 
+    }
+    .bo--md{
+        @apply border-white/80
+    }
+    .bo--sm{
+        @apply border-white
+    }
+
+    /* ----------- */
+    
 }

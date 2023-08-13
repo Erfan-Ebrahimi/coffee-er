@@ -28,7 +28,7 @@ const Header = () => {
     return (
         <>
             {/* DESKTOP */}
-            <header className="fixed top-9 left-0 right-0 hidden md:flex items-center w-[98%] lg:w-[90%] h-24 pr-5 pl-3 lg:pr-10 lg:pl-4 py-5 mx-auto bg-black/50 rounded-3xl backdrop-blur-[6px]">
+            <header className="fixed top-9 left-0 right-0 hidden md:flex items-center w-[98%] lg:w-[90%] h-24 pr-5 pl-3 lg:pr-10 lg:pl-4 py-5 mx-auto bg-black/50 rounded-3xl backdrop-blur-[6px] z-10">
                 <div className="w-full flex justify-between items-center">
                     {/* LOGO & MENU */}
                     <nav className="flex items-center gap-x-5 lg:gap-x-9">
@@ -83,58 +83,7 @@ const Header = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="flex gap-x-2.5">
-                                            <img src="images/products/p3.png" className="w-[120px] h-[120px]" alt="p1" />
-                                            <div className="flex flex-col justify-between">
-                                                <h4 className="font-DanaM text-base text-zinc-700 dark:text-white line-clamp-2">قهوه عربیکا بن مانو مدل ویژه 250 گرمی</h4>
-                                                <div>
-                                                    <span className="text-xs text-teal-600 dark:text-emerlad-500 tracking-tighter">17,200 تومان نخفیف</span>
-                                                    <div className="text-zink-700 dark:text-white">
-                                                        <span className="font-DanaB">155,000</span>
-                                                        <span className="font-Dana text-sm pr-1">تومان</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="flex gap-x-2.5">
-                                            <img src="images/products/p3.png" className="w-[120px] h-[120px]" alt="p1" />
-                                            <div className="flex flex-col justify-between">
-                                                <h4 className="font-DanaM text-base text-zinc-700 dark:text-white line-clamp-2">قهوه عربیکا بن مانو مدل ویژه 250 گرمی</h4>
-                                                <div>
-                                                    <span className="text-xs text-teal-600 dark:text-emerlad-500 tracking-tighter">17,200 تومان نخفیف</span>
-                                                    <div className="text-zink-700 dark:text-white">
-                                                        <span className="font-DanaB">155,000</span>
-                                                        <span className="font-Dana text-sm pr-1">تومان</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="flex gap-x-2.5">
-                                            <img src="images/products/p3.png" className="w-[120px] h-[120px]" alt="p1" />
-                                            <div className="flex flex-col justify-between">
-                                                <h4 className="font-DanaM text-base text-zinc-700 dark:text-white line-clamp-2">قهوه عربیکا بن مانو مدل ویژه 250 گرمی</h4>
-                                                <div>
-                                                    <span className="text-xs text-teal-600 dark:text-emerlad-500 tracking-tighter">17,200 تومان نخفیف</span>
-                                                    <div className="text-zink-700 dark:text-white">
-                                                        <span className="font-DanaB">155,000</span>
-                                                        <span className="font-Dana text-sm pr-1">تومان</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="flex gap-x-2.5">
-                                            <img src="images/products/p3.png" className="w-[120px] h-[120px]" alt="p1" />
-                                            <div className="flex flex-col justify-between">
-                                                <h4 className="font-DanaM text-base text-zinc-700 dark:text-white line-clamp-2">قهوه عربیکا بن مانو مدل ویژه 250 گرمی</h4>
-                                                <div>
-                                                    <span className="text-xs text-teal-600 dark:text-emerlad-500 tracking-tighter">17,200 تومان نخفیف</span>
-                                                    <div className="text-zink-700 dark:text-white">
-                                                        <span className="font-DanaB">155,000</span>
-                                                        <span className="font-Dana text-sm pr-1">تومان</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                       
 
 
                                     </div>
