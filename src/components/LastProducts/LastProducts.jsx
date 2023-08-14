@@ -4,7 +4,7 @@ import ProductBox from "../ProductBox/ProductBox";
 
 const LastProducts = () => {
   return (
-    <section className="pt-8 mb-8 md:mb-20 md:pt-24 lg:pt-48">
+    <section className="pt-8 md:pt-24 lg:pt-48">
       <div className="flex justify-between items-end mb-5 md:mb-12">
         <div>
           <h2 className="text-2xl md:text-5xl font-MorabbaM text-zink-700 dark:text-white">جدیدترین محصولات</h2>

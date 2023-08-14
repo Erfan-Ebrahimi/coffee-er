@@ -72,4 +72,13 @@
         position: absolute;
         background-color: #ef4444;
     }
+
+    .banner1{
+        background: linear-gradient(270deg,rgba(0,0,0,0.6)33.85%,rgba(243,244,246,0.1)100%) ,url('./images/categories/category-right.jpg');
+        background-size: cover;
+    }
+    .banner2{
+        background: linear-gradient(270deg,rgba(0,0,0,0.6)33.85%,rgba(243,244,246,0.1)100%) ,url('./images/categories/category-left.jpg');
+        background-size: cover;
+    }
 }
