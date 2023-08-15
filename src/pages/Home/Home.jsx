@@ -1,7 +1,9 @@
+// ------------------COMPONENTS
 import Header from "../../components/Header/Header";
 import LastProducts from "../../components/LastProducts/LastProducts";
 import Landing from "../../components/Landing/Landing";
 import CategoryBaner from "../../components/CategoryBaner/CategoryBaner";
+import CategoryProducts from "../../components/CategoryProducts/CategoryProducts";
 
 const Home = () => {
   return (
@@ -13,6 +15,7 @@ const Home = () => {
           <main className="container">
             <LastProducts />
             <CategoryBaner/>
+            <CategoryProducts/>
           </main>
         </div>
 
