@@ -81,4 +81,16 @@
         background: linear-gradient(270deg,rgba(0,0,0,0.6)33.85%,rgba(243,244,246,0.1)100%) ,url('./images/categories/category-left.jpg');
         background-size: cover;
     }
+
+    .swiper-button-next::after, .swiper-button-prev::after {
+        content: "";
+    }
+    .swiper-button-next{
+        @apply flex justify-center items-center mx-auto w-[30px] h-[30px] md:w-10 md:h-10 absolute left-14 md:left-16 bg-white dark:bg-zinc-600 hover:bg-gray-300 dark:hover:bg-white dark:child-hover:fill-zinc-700  rounded-full duration-500 shadow-lg
+    }
+    
+    .swiper-button-prev {
+        @apply flex justify-center items-center mx-auto w-[30px] h-[30px] md:w-10 md:h-10 absolute right-12 md:right-14 bg-white dark:bg-zinc-600 hover:bg-gray-300 dark:hover:bg-white dark:child-hover:fill-zinc-700 rounded-full duration-500 shadow-lg
+    }
+
 }

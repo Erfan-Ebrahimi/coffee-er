@@ -4,6 +4,7 @@ import LastProducts from "../../components/LastProducts/LastProducts";
 import Landing from "../../components/Landing/Landing";
 import CategoryBaner from "../../components/CategoryBaner/CategoryBaner";
 import CategoryProducts from "../../components/CategoryProducts/CategoryProducts";
+import BestSelling from "../../components/BestSelling/BestSelling";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
             <LastProducts />
             <CategoryBaner/>
             <CategoryProducts/>
+            <BestSelling/>
           </main>
         </div>
 
