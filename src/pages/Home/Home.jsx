@@ -7,6 +7,7 @@ import CategoryProducts from "../../components/CategoryProducts/CategoryProducts
 import BestSelling from "../../components/BestSelling/BestSelling";
 import CoffeeClub from "../../components/CoffeeClub/CoffeeClub";
 import Articles from "../../components/Articles/Articles";
+import ContactUs from "../../components/ContactUs/ContactUs";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
             <BestSelling/>
             <CoffeeClub/>
             <Articles/>
+            <ContactUs/>
           </main>
         </div>
 

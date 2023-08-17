@@ -12,7 +12,7 @@ const Articles = () => {
                     <span className="inline-block text-lg md:text-3xl font-Morabba mt-0.5 md:mt-1.5 text-zinc-700 dark:text-white">یه فنجون مطالعـــــــــــــــــــه   . . .</span>
                 </div>
                 <Link to='/' className="flex items-center justify-center md:gap-x-1 h-10 pr-3 pl-1 rounded-md transition-colors duration-300 hover:bg-orange-300/30">
-                    <span className="hidden md:inline-block text-base md:text-xl text-orange-400 tracking-tighter">مشاهده همه مقاله ها</span>
+                    <span className="hidden md:inline-block text-base md:text-xl text-orange-400 tracking-tighter" >مشاهده همه مقاله ها</span>
                     <span className="inline-block md:hidden text-base md:text-xl text-orange-400 tracking-tighter">مشاهده همه</span>
                     <ChevronLeftIcon className="w-5 h-5 text-orange-400" />
                 </Link>
