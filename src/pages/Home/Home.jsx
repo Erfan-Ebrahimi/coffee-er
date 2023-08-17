@@ -6,6 +6,7 @@ import CategoryBaner from "../../components/CategoryBaner/CategoryBaner";
 import CategoryProducts from "../../components/CategoryProducts/CategoryProducts";
 import BestSelling from "../../components/BestSelling/BestSelling";
 import CoffeeClub from "../../components/CoffeeClub/CoffeeClub";
+import Articles from "../../components/Articles/Articles";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
             <CategoryProducts/>
             <BestSelling/>
             <CoffeeClub/>
+            <Articles/>
           </main>
         </div>
 

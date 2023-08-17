@@ -17,8 +17,8 @@ const BestSelling = () => {
         <section className="mb-9 md:mb-20">
             <div className="flex justify-between items-end mb-5 md:mb-12">
                 <div>
-                    <h2 className="text-2xl md:text-5xl font-MorabbaM text-zink-700 dark:text-white">جدیدترین محصولات</h2>
-                    <span className="inline-block text-lg md:text-3xl font-Morabba mt-0.5 md:mt-1.5 text-zinc-700 dark:text-white">فرآوری شده از دانه قهوه</span>
+                    <h2 className="text-2xl md:text-5xl font-MorabbaM text-zink-700 dark:text-white">محصولات پرفروش</h2>
+                    <span className="inline-block text-lg md:text-3xl font-Morabba mt-0.5 md:mt-1.5 text-zinc-700 dark:text-white">پیشنهاد قهوه خورها  . . . </span>
                 </div>
                 <div className="relative transition-colors duration-300 mb-5 md:mb-3 pl-28 md:pl-40">
                     <div className="swiper-button-prev" >

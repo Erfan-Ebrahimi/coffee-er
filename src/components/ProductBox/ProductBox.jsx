@@ -1,6 +1,7 @@
 import { ShoppingCartIcon } from "@heroicons/react/24/outline";
 import { ArrowsRightLeftIcon } from "@heroicons/react/24/outline";
 import { StarIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 // import { StarIcon } from "@heroicons/react/24/outline";
 
 
@@ -8,8 +9,8 @@ import { StarIcon } from "@heroicons/react/24/solid";
 // eslint-disable-next-line react/prop-types
 const ProductBox = ({ img, title, price, off, score, count }) => {
     return (
-        <div className="p-2 md:p-5 bg-white dark:bg-zinc-700 rounded-2xl shadow-base cursor-pointer hover:shadow-2xl hover:scale-105 duration-500 group">
-            <div className="relative mb-2 md:mb-5">
+        <div className="p-2 md:p-5 bg-white dark:bg-zinc-700 rounded-2xl shadow-base cursor-pointer hover:shadow-2xl hover:scale-105 duration-500 delay-100 group">
+            <Link to='/' className="relative mb-2 md:mb-5">
                 <img src={`images/products/p${img}.png`} className=" w-32 mx-auto md:w-auto group-hover:saturate-150" alt="p1" />
                 {
                     off === 0 ?
@@ -21,10 +22,10 @@ const ProductBox = ({ img, title, price, off, score, count }) => {
                             <span className="absolute top-1 right-1 h-5 md:h-[30px] px-2.5 md:px-3.5 text-xs/[24px] md:text-base/[34px] rounded-3xl font-DanaB text-white dark:text-zinc-700 bg-orange-300">{off}%</span>
                         )
                 }
-            </div>
-            <h5 className="h-10 md:h-14 font-DanaM text-sm md:text-xl text-zinc-700 dark:text-white line-clamp-2">
+            </Link>
+            <Link to='/' className="h-10 md:h-14 font-DanaM text-sm md:text-xl text-zinc-700 dark:text-white line-clamp-2">
                 {title}
-            </h5>
+            </Link>
             {
                 count === 0 ?
                     (
