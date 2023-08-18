@@ -37,7 +37,6 @@
 
 @layer components{
 
-    /* --------BORDERS FOR DESIGN LANDING */
     .bo{
         @apply flex items-center justify-center border-t rounded-full
     }
@@ -53,8 +52,6 @@
     .bo--sm{
         @apply border-white
     }
-
-    /* ----------- */
     .bg-body{
         background: linear-gradient(rgba(243,244,246,0.35),rgba(243,244,246,0.35)) ,url('./images/body-bg.png');
         background-repeat: no-repeat;
@@ -95,5 +92,26 @@
         border-image-slice: 1;
         border-width: 1px;
         border-image-source: radial-gradient(circle, #f97316 53%, rgba(0,128,255,1) 100%);
+    }
+    .services{
+        position: relative;
+    }
+    .services::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 50%;
+        width: 1px;
+        height: 100%;
+        background:radial-gradient(circle, rgb(249, 115, 22,.3) 53%, rgba(0,128,255,.3) 100%);
+    }
+    .services::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 100%;
+        height: 1px;
+        background:radial-gradient(circle, rgb(250, 118, 23,.3) 53%, rgba(0,128,255,.3) 100%);
     }
 }

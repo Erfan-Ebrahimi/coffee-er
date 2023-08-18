@@ -8,6 +8,7 @@ import BestSelling from "../../components/BestSelling/BestSelling";
 import CoffeeClub from "../../components/CoffeeClub/CoffeeClub";
 import Articles from "../../components/Articles/Articles";
 import ContactUs from "../../components/ContactUs/ContactUs";
+import Services from "../../components/Services/Services";
 
 const Home = () => {
   return (
@@ -18,12 +19,13 @@ const Home = () => {
         <div className=" bg-body dark:bg-main bg-no-repeat">
           <main className="container">
             <LastProducts />
-            <CategoryBaner/>
-            <CategoryProducts/>
-            <BestSelling/>
-            <CoffeeClub/>
-            <Articles/>
-            <ContactUs/>
+            <CategoryBaner />
+            <CategoryProducts />
+            <BestSelling />
+            <CoffeeClub />
+            <Articles />
+            <ContactUs />
+            <Services />
           </main>
         </div>
 
