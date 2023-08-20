@@ -19,11 +19,11 @@ const ProductBox = ({ img, title, price, off, score, count }) => {
                         )
                         :
                         (
-                            <span className="absolute top-1 right-1 h-5 md:h-[30px] px-2.5 md:px-3.5 text-xs/[24px] md:text-base/[34px] rounded-3xl font-DanaB text-white dark:text-zinc-700 bg-orange-300">{off}%</span>
+                            <span className="absolute top-0 right-7 h-5 md:h-[30px] px-2.5 md:px-3.5 text-xs/[24px] md:text-base/[34px] rounded-3xl hover:rotate-[20deg] hover:scale-95 duration-500 font-DanaB text-white dark:text-zinc-700 bg-orange-300">{off}%</span>
                         )
                 }
             </Link>
-            <Link to='/' className="h-10 md:h-14 font-DanaM text-sm md:text-xl text-zinc-700 dark:text-white line-clamp-2">
+            <Link to='/' className="h-10 md:h-14 font-DanaM text-sm md:text-xl text-zinc-700 dark:text-white line-clamp-2 hover:underline  underline-offset-8">
                 {title}
             </Link>
             {

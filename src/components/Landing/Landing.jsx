@@ -21,8 +21,8 @@ const Landing = () => {
                 <div className="bo bo--md w-0 h-0 xs:w-[105px] xs:h-[105px] md:w-[145px] md:h-[145px] hover:border-t-4 hover:border-t-orange-400 duration-75">
                     <div className="bo bo--sm w-0 h-0 xs:w-[75px] xs:h-[75px] md:w-[95px] md:h-[95px] hover:border-t-4 hover:border-t-orange-400">
 
-                        <div className="flex w-6 h-6 xs:w-[30px] xs:h-[30px] justify-center items-center border-2 rounded-full border-orange-300 dark:border-orange-300 hover:border-3 hover:w-9 hover:h-9  hover:border-orange-600 dark:hover:border-orange-600 cursor-pointer">                            
-                            <ChevronDownIcon onClick={() => console.log('redred')} className="w-5 h-5 xs:w-6 xs:h-6 flex justify-center items-center text-zinc-700 dark:text-white" />
+                        <div className="flex w-6 h-6 xs:w-[30px] xs:h-[30px] justify-center items-center border-2 rounded-full border-orange-300 dark:border-orange-300  hover:scale-110 hover:border-orange-600 dark:hover:border-orange-600 cursor-pointer">                            
+                            <ChevronDownIcon onClick={() => console.log('redred')} className="w-5 h-5  xs:w-10 xs:h-10 flex justify-center items-center text-zinc-700 dark:text-white" />
                         </div>
 
                     </div>

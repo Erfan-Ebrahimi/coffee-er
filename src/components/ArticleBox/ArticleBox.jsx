@@ -8,7 +8,7 @@ const ArticleBox = ({img,title,day,month}) => {
                 <img src={`./images/blogs/blog-${img}.png`} className="h-full object-cover sm:h-auto" alt="blog-img" />
             </div>
             <div className="w-full flex flex-col sm:flex-row items-start justify-between">
-                <Link to='/' className="max-w-[193px] pb-5 mt-2 sm:mt-0 font-DanaM md:font-Dana md:line-clamp-2  text-sm md:text-lg text-zinc-700 dark:text-white border-b sm:border-none border-gray-200 dark:border-white/20">{title}</Link>
+                <Link to='/' className="max-w-[193px] pb-5 mt-2 sm:mt-0 font-DanaM md:font-Dana md:line-clamp-2  text-sm md:text-lg text-zinc-700 dark:text-white border-b sm:border-none border-gray-200 dark:border-white/20 hover:underline  underline-offset-8">{title}</Link>
                 <div className="flex flex-row gap-x-1 sm:flex-col sm:ml-[18px] sm:-mt-1 text-teal-600 dark:text-emerald-500 sm:text-center sm:text-sm sm:pr-5 sm:mr-5 sm:border-r border-gray-200 dark:border-white/10">
                     <span className="font-DanaB sm:text-2xl">{day}</span>
                     <span>{month}</span>

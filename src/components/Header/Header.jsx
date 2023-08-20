@@ -116,12 +116,12 @@ const Header = () => {
             <div className={`flex md:hidden justify-between items-center w-full h-16 px-4 bg-white dark:bg-zinc-700`}>
                 {/* NAV */}
                 <div>
-                    <Bars3Icon className="w-6 h-6text-zinc-700 dark:text-white transition-colors delay-300" onClick={() => {
+                    <Bars3Icon className="w-6 h-6 text-zinc-700 dark:text-white transition-colors delay-300 cursor-pointer" onClick={() => {
                         setShowMobileMenu(true)
                         console.log('red');
                     }} />
                 </div>
-                <div className={`${showMobileMenu ? 'right-0 opacity-100' : 'right-[-350px] opacity-0'} fixed overflow-y-auto top-0 bottom-0 w-64 min-h-screen pt-3 px-4 bg-white dark:bg-zinc-700 z-20  transition-all duration-300`}>
+                <div className={`${showMobileMenu ? 'right-0 opacity-100' : 'right-[-350px] opacity-0'} fixed overflow-y-auto top-0 bottom-0 w-64 pt-3 px-4 bg-white dark:bg-zinc-700 z-20  transition-all duration-300`}>
                     {/* NAV HEADER */}
                     <div className="flex justify-between items-center pb-5 mb-6 border-b border-gray-200 dark:border-white/10">
                         <div className="flex items-center gap-x-3.5">
@@ -185,9 +185,9 @@ const Header = () => {
                 </div >
                 {/* SHOPPING BASKET */}
                 <div>
-                    <ShoppingCartIcon onClick={() => setShowMobileBasket(true)} className="w-6 h-6 text-zinc-700 dark:text-white" />
+                    <ShoppingCartIcon onClick={() => setShowMobileBasket(true)} className="w-6 h-6 text-zinc-700 dark:text-white cursor-pointer" />
                 </div>
-                <div className={`${showMobileBasket ? 'left-0 opacity-100' : 'left-[-350px] opacity-0'} fixed left-0 top-0 bottom-0 flex flex-col w-64 min-h-screen pt-5 px-4 bg-white dark:bg-zinc-700 z-20  transition-all duration-300`}>
+                <div className={`${showMobileBasket ? 'left-0 opacity-100' : 'left-[-350px] opacity-0'} fixed left-0 top-0 bottom-0 flex flex-col w-64 pt-5 px-4 bg-white dark:bg-zinc-700 z-20  transition-all duration-300`}>
                     {/* CART HEADER */}
                     <div className="flex justify-between items-center pb-5 mb-6 border-b border-gray-300 dark:border-white/30">
                         <XMarkIcon className="w-5 h-5 text-zinc-600 dark:text-white" onClick={() => setShowMobileBasket(false)} />

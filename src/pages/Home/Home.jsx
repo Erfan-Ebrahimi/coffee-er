@@ -9,6 +9,7 @@ import CoffeeClub from "../../components/CoffeeClub/CoffeeClub";
 import Articles from "../../components/Articles/Articles";
 import ContactUs from "../../components/ContactUs/ContactUs";
 import Services from "../../components/Services/Services";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -28,9 +29,8 @@ const Home = () => {
             <Services />
           </main>
         </div>
-
+        <Footer />
       </div>
-
     </>
   )
 }
