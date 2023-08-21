@@ -33,42 +33,47 @@
         src: url("../fonts/Morabba/woff2/Morabba-Bold.woff2") format("woff2");
         font-display: swap;
     }
+
+    html::-webkit-scrollbar{
+        width: 6px;
+    }
+    html::-webkit-scrollbar-track{
+        background:#7c756f;
+    }
+    html::-webkit-scrollbar-thumb{
+        background:#fdba74;
+    }
+    html.dark::-webkit-scrollbar-track{
+        background:#8e8181;
+    }
+    html.dark::-webkit-scrollbar-thumb{
+        background:#fed7aa;
+    }
 }
 
 @layer components{
 
-    .bo{
+    .circle-landing{
         @apply flex items-center justify-center border-t rounded-full
     }
-    .bo--main{
+    .circle-main{
         @apply absolute bottom-0 right-0 left-0 mx-auto translate-y-2/4
     }
-    .bo--lg{
+    .circle-lg{
         @apply border-white/50 
     }
-    .bo--md{
+    .circle-md{
         @apply border-white/80
     }
-    .bo--sm{
+    .circle-sm{
         @apply border-white
     }
 
 
-    .to{
-        @apply flex items-center justify-center border-b rounded-full
+    .footer-designe{
+        @apply flex items-center justify-center border-b rounded-full absolute top-0 right-0 left-0 mx-auto translate-y-2/4
     }
-    .to--main{
-        @apply absolute top-0 right-0 left-0 mx-auto translate-y-2/4
-    }
-    .to--lg{
-        @apply border-white/50 
-    }
-    .to--md{
-        @apply border-white/80
-    }
-    .to--sm{
-        @apply border-white
-    }
+    
     .bg-body{
         background: linear-gradient(rgba(243,244,246,0.35),rgba(243,244,246,0.35)) ,url('./images/body-bg.png');
         background-repeat: no-repeat;
@@ -144,5 +149,8 @@
         border-image-slice: 1;
         border-width: 1px;
         border-image-source: radial-gradient(circle, rgb(249, 115, 22,0.3) 83%, rgba(0,128,255,0.3) 100%); 
+    }
+    .bb{
+        color: #ffffff00;
     }
 }

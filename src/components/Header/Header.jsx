@@ -158,8 +158,8 @@ const Header = () => {
                             <ArrowLeftOnRectangleIcon className="w-5 h-5 rotate-180" />
                             <span >ورود | ثبت نام</span>
                         </a>
-                        <div onClick={changTheme}>
-                            <Switcher cSun='#fb923c' cMoon='#fb923c' content={theme ? 'تم روشن' : 'تم تیره'} size={20} />
+                        <div onClick={changTheme} className="cursor-pointer">
+                            <Switcher cSun='#fb923c' cMoon='#fb923c' content={theme ? 'تم تیره' : 'تم روشن'} size={20} />
                         </div>
                         <a href="#" className="flex items-center gap-x-2 mb-4">
                             <ShoppingCartIcon className="w-5 h-5" />
@@ -225,7 +225,7 @@ const Header = () => {
                     </div>
                     {/* CART FOOTER */}
                     <div className="flex items-center gap-x-4 pt-8 mt-auto mb-8 ">
-                        <Link to='e1' className="flex justify-center items-center h-11 w-28 rounded-xl tracking-tightest text-white bg-teal-600 dark:bg-emerald-500 hover:bg-teal-700 dark:hover:bg-emerald-600 transition-colors   ">ثبت سفارش</Link>
+                        <Link to='/' className="flex justify-center items-center h-11 w-28 rounded-xl tracking-tightest text-white bg-teal-600 dark:bg-emerald-500 hover:bg-teal-700 dark:hover:bg-emerald-600 transition-colors   ">ثبت سفارش</Link>
                         <div>
                             <span className="font-DanaM text-xs text-gray-400 tracking-tighter">مبلغ قابل پرداخت</span>
                             <div className="text-zink-700 dark:text-white">

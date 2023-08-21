@@ -24,7 +24,7 @@ const Navbar = ({ size }) => {
                 <NavLink to='/'>
                     <span className="font-DanaM">صفحه اصلی</span>
                 </NavLink>
-                <NavLink to='a2' className="relative group">
+                <NavLink to='/1' className="relative group">
                     <span className="flex justify-between items-center gap-x-1 hover:text-orange-200">
                         <span>فروشگاه</span>
                         <ChevronDownIcon className="w-4 h-4" />
@@ -39,16 +39,16 @@ const Navbar = ({ size }) => {
                         <span>قهوه زینو برزیلی</span>
                     </div>
                 </NavLink>
-                <NavLink to='a3'>
+                <NavLink to='/2'>
                     <span className=" hover:text-orange-200">دیکشنری</span>
                 </NavLink>
-                <NavLink to='a4'>
+                <NavLink to='/3'>
                     <span className=" hover:text-orange-200">بلاگ</span>
                 </NavLink>
-                <NavLink to='a5'>
+                <NavLink to='/4'>
                     <span className=" hover:text-orange-200">درباره ما</span>
                 </NavLink>
-                <NavLink to='a6'>
+                <NavLink to='/5'>
                     <span className=" hover:text-orange-200">تماس با ما</span>
                 </NavLink>
             </ul>
@@ -65,7 +65,7 @@ const Navbar = ({ size }) => {
                         <span className="font-DanaM">صفحه اصلی</span>
                     </div>
                 </NavLink>
-                <NavLink className='relative flex justify-between items-center ' to='2' onClick={showSub}>
+                <NavLink className='relative flex justify-between items-center duration-500 ' to='/9' onClick={showSub}>
                     <div className="flex justify-betwee">
                         <div className="flex items-center gap-x-2">
                             <span>
@@ -79,14 +79,14 @@ const Navbar = ({ size }) => {
                     </div>
                 </NavLink>
                 <div className={` ${showSubMenu ? 'flex' : 'hidden'} w-[80%] mr-8 top-[32%] flex-col p-6 space-y-4 bg-orange-200/10 dark:bg-orange-300/10 border-r border-orange-300 child:rounded-md text-zinc-600 dark:text-white text-sm rounded-2xl child-hover:text-orange-300 transition-transform duration-500 `}>
-                    <NavLink to="444">قهوه ویژه</NavLink>
-                    <NavLink to="33">ویژه در سطح جهانی</NavLink>
-                    <NavLink to="55">قهوه درجه یک</NavLink>
-                    <NavLink to="66">ترکیبات تجاری</NavLink>
-                    <NavLink to="88">کپسول قهوه</NavLink>
-                    <NavLink to="77">قهوه زینو برزیلی</NavLink>
+                    <NavLink to="/1">قهوه ویژه</NavLink>
+                    <NavLink to="/2">ویژه در سطح جهانی</NavLink>
+                    <NavLink to="/3">قهوه درجه یک</NavLink>
+                    <NavLink to="/4">ترکیبات تجاری</NavLink>
+                    <NavLink to="/5">کپسول قهوه</NavLink>
+                    <NavLink to="/6">قهوه زینو برزیلی</NavLink>
                 </div>
-                <NavLink to='3' className="flex items-center justify-between">
+                <NavLink to='/1' className="flex items-center justify-between">
                     <div className="flex items-center gap-x-2">
                         <span>
                             <ChatBubbleLeftEllipsisIcon className="w-6 h-5" />
@@ -95,8 +95,8 @@ const Navbar = ({ size }) => {
 
                     </div>
                 </NavLink>
-                <NavLink to='4' className="flex items-center justify-between">
-                    <div href="#" className="flex items-center gap-x-2">
+                <NavLink to='/2' className="flex items-center justify-between">
+                    <div className="flex items-center gap-x-2">
                         <span>
                             <DocumentTextIcon className="w-6 h-5" />
                         </span>
@@ -104,8 +104,8 @@ const Navbar = ({ size }) => {
 
                     </div>
                 </NavLink>
-                <NavLink to='5' className="flex items-center justify-between">
-                    <div href="#" className="flex items-center gap-x-2">
+                <NavLink to='/3' className="flex items-center justify-between">
+                    <div className="flex items-center gap-x-2">
                         <span>
                             <BriefcaseIcon className="w-6 h-5" />
                         </span>
@@ -113,8 +113,8 @@ const Navbar = ({ size }) => {
 
                     </div>
                 </NavLink>
-                <NavLink to='6' className="flex items-center justify-between .active">
-                    <div href="#" className="flex items-center gap-x-2">
+                <NavLink to='/4' className="flex items-center justify-between .active">
+                    <div className="flex items-center gap-x-2">
                         <span>
                             <PhoneArrowUpRightIcon className="w-6 h-5" />
                         </span>

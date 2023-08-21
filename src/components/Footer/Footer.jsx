@@ -14,12 +14,10 @@ const Footer = () => {
             <svg className="absolute invisible md:visible top-0 right-0 left-0 mx-auto w-[100px] h-[22px] fill-gray-100 dark:fill-zinc-800 rotate-180" viewBox="0 0 100 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M50 0C69 0 81 22 100 22L0 22C18.75 22 31 0 50 0Z" />
             </svg>
-            <div className="hidden md:to to--main to--lg w-0 h-0 xs:w-[145px] xs:h-[145px] md:w-[203px] md:h-[203px] top-[-200px] border-none">
-
+            <div className="footer-designe invisible md:visible w-0 h-0 xs:w-[145px] xs:h-[145px] md:w-[203px] md:h-[203px] top-[-200px] border-none">
                 <div className="flex w-6 h-6 xs:w-[30px] xs:h-[30px] justify-center items-center border-2 rounded-full rotate-180 border-orange-300 dark:border-orange-300 hover:border-1 hover:scale-110  hover:border-orange-600 dark:hover:border-orange-600 cursor-pointer">
                     <ChevronDownIcon onClick={() => console.log('redred')} className="w-5 h-5 pt-1 xs:w-10 xs:h-10 flex justify-center mx-auto items-center text-zinc-700 dark:text-white" />
                 </div>
-
             </div>
 
 
