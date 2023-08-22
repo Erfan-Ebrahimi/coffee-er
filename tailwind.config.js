@@ -40,9 +40,9 @@ export default {
         }
       },
       backgroundImage: {
-        "home-mobile" : "url(./images/headerBgMobile.webp)",
-        "home-desktop" : "url(./images/headerBgDesktop.webp)",
-        "main" : "url(./images/body-bg.png)",
+        "home-mobile" : "url(../public/images/headerBgMobile.webp)",
+        "home-desktop" : "url(../public/images/headerBgDesktop.webp)",
+        "main" : "url(../public/images/body-bg.png)",
       }
     },
     screens: {
