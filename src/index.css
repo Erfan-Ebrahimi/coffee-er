@@ -75,7 +75,7 @@
     }
     
     .bg-body{
-        background: linear-gradient(rgba(243,244,246,0.35),rgba(243,244,246,0.35)) ,url('./images/body-bg.png');
+        background: linear-gradient(rgba(243,244,246,0.35),rgba(243,244,246,0.35)) ,url('../public/images/body-bg.png');
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -90,11 +90,11 @@
         background-color: #ef4444;
     }
     .banner1{
-        background: linear-gradient(270deg,rgba(0,0,0,0.6)33.85%,rgba(243,244,246,0.1)100%) ,url('./images/categories/category-right.jpg');
+        background: linear-gradient(270deg,rgba(0,0,0,0.6)33.85%,rgba(243,244,246,0.1)100%) ,url('../public/images/categories/category-right.jpg');
         background-size: cover;
     }
     .banner2{
-        background: linear-gradient(270deg,rgba(0,0,0,0.6)33.85%,rgba(243,244,246,0.1)100%) ,url('./images/categories/category-left.jpg');
+        background: linear-gradient(270deg,rgba(0,0,0,0.6)33.85%,rgba(243,244,246,0.1)100%) ,url('../public/images/categories/category-left.jpg');
         background-size: cover;
     }
     .swiper-button-next::after, .swiper-button-prev::after {
@@ -149,8 +149,5 @@
         border-image-slice: 1;
         border-width: 1px;
         border-image-source: radial-gradient(circle, rgb(249, 115, 22,0.3) 83%, rgba(0,128,255,0.3) 100%); 
-    }
-    .bb{
-        color: #ffffff00;
     }
 }
